@@ -1,0 +1,8 @@
+moviepy==2.2.1
+python-dotenv
+google-genai
+supadata
+yt-dlp
+opencv-python
+numpy
+insightface

@@ -1,0 +1,35 @@
+{
+  "supadata": {
+    "api_keys": [
+      "sd_f96ca418cdf76821a9b3f9b9974e6fee",
+      "sd_236ba370aa0aea187fb4b5cd0b4b5f63",
+      "sd_828a9bc5b7320998db2a1335ee56120e",
+      "sd_96d2d147d522cb0fd1393b38248a5452",
+      "sd_96d2d147d522cb0fd1393b38248a5452"
+    ],
+    "poll_interval_seconds": 2,
+    "poll_max_attempts": 30
+  },
+  "ai_models": {
+    "default": "gemini",
+    "gemini": {
+      "enabled": true,
+      "api_keys": [
+        "AIzaSyBdqPerloaHiqRbCvGocgY92MvsSUGy6DQ","AIzaSyDR6zEJyiHr_X6ovtVA_ZIVdUh8IIBBkuU","AIzaSyAUTuIkjBRbEkDpFvFrvT4MaKspw6jo4aY","AIzaSyDd6khSFvKzzK1KP-TI8KgZIXqF0cf1yRg","AIzaSyA4XYYNXu4ujnL7RJjpNFkYj71MIkp6Xdk"
+      ],
+      "timeout_seconds": 60
+    }
+  },
+  "output": {
+    "min_clip_duration_seconds": 30,
+    "max_clip_duration_seconds": 60,
+    "top_k_candidates": 5,
+    "max_title_length": 60,
+    "num_tags": 8,
+    "file": "output_short.json"
+  },
+  "downloader": {
+    "output_dir": "downloads",
+    "resolution": "720"
+  }
+}
